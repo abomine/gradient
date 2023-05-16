@@ -27,7 +27,7 @@ def gradient_descent(X, Y, n_iter=1000, learning_rate=0.001, stop_threshold=1e-6
 
     costs = []
     weights = []
-    previous_cost = 0
+    previous_cost = None
 
     for i in range(n_iter):
         #calculating predictions
